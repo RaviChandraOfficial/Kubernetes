@@ -41,3 +41,29 @@ kubectl completion bash >> ~/.bashrc
 source ~/.bashrc
 
 
+# how to push code into github
+
+📌 Push Local Project to GitHub (Step-by-Step)
+1️⃣ Initialize Git Repository
+git init
+
+2️⃣ Check Current Status
+git status
+
+3️⃣ Add All Files to Staging Area
+git add .
+
+4️⃣ Create First Commit
+git commit -m "Initial commit"
+
+5️⃣ Rename Default Branch to main
+git branch -M main
+
+6️⃣ Add Remote Repository (GitHub URL)
+git remote add origin https://github.com/RaviChandraOfficial/Kubernetes.git
+
+7️⃣ Verify Remote Connection (Optional)
+git remote -v
+
+8️⃣ Push Code to GitHub
+git push -u origin main
